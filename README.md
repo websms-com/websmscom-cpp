@@ -14,7 +14,7 @@ Latest Version
 ------------------
 
   * Version 1.0.0: Basic text- and binary-sms-sending.
-  * Version 1.1.0: Added support for C.
+  * Version 1.0.1: Added support for C.
 
 Documentation
 -------------
