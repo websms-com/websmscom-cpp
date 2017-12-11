@@ -83,9 +83,9 @@ Other information
 Contributors
 ------------
 
-	* Markus Opitz (Author)
-	* Georg Hinteregger
-	* Martin Mrvka ([@mmrvka](https://github.com/mmrvka))
+* Markus Opitz (Author)
+* Georg Hinteregger
+* Martin Mrvka ([@mmrvka](https://github.com/mmrvka))
 	
 
 Contact
