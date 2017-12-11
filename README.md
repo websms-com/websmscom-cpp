@@ -22,7 +22,8 @@ Documentation
   The documentation available as of the date of this release is included in the
   doc/sdk/ directory.
   
-  For a quick start, check out the examples (examples/).
+  For a quick start, check out the examples:
+  [examples/](examples/).
 
 Installation
 ------------
