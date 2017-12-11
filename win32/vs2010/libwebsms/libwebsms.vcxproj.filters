@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Quelldateien">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Headerdateien">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Ressourcendateien">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Headerdateien\include">
+      <UniqueIdentifier>{ffe92d8d-8fc2-4d58-9a92-bc5ff9e61806}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\include\websms">
+      <UniqueIdentifier>{813f8f7f-1ecb-41d2-9773-4ca90450eb8a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\include\websms\arrays.h">
+      <Filter>Headerdateien\include\websms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\websms\capi.h">
+      <Filter>Headerdateien\include\websms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\websms\dto.h">
+      <Filter>Headerdateien\include\websms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\websms\exceptions.h">
+      <Filter>Headerdateien\include\websms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\websms\messages.h">
+      <Filter>Headerdateien\include\websms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\websms\misc.h">
+      <Filter>Headerdateien\include\websms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\websms\requests.h">
+      <Filter>Headerdateien\include\websms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\websms\responses.h">
+      <Filter>Headerdateien\include\websms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\websms\sms_client.h">
+      <Filter>Headerdateien\include\websms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\websms\status_codes.h">
+      <Filter>Headerdateien\include\websms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\websms\websms.h">
+      <Filter>Headerdateien\include\websms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\base64.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\http.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\json.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\utils.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\src\base64.cc">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\capi.cc">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\exceptions.cc">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\http.cc">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\json.cc">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\main.cc">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\messages.cc">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\misc.cc">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\requests.cc">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\respones.cc">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\sms_client.cc">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,48 @@
+
+
+                  W E B S M S . C O M   C + +   T O O L K I T
+
+
+  Preparation
+  -----------
+
+  The websms.com toolkit uses Jansson and libcurl, so you have to install the
+  development packages for your distribution. You also need make and a compiler.
+
+  For example, in Ubuntu, just execute following command:
+
+  sudo apt-get install build-essential libcurl4-openssl-dev libjansson-dev
+
+  Installation
+  ------------
+
+  Just run the following two commands:
+
+  make
+  sudo make install
+
+  The library and the header files will be installed under /usr/local/. You can
+  change the destination by adding PREFIX to the install command:
+
+  sudo make PREFIX=/usr install
+
+  Uninstall
+  ---------
+
+  sudo make uninstall
+
+  If you used a PREFIX for installation, you have to add it here too:
+
+  sudo make PREFIX=/usr uninstall
+
+  Other information
+  -----------------
+
+  The library was tested under Ubuntu 12.10, using libcurl 7.27 and
+  Jansson 2.3.1.
+
+  Whats next?
+  -----------
+
+  Details can be found in the toolkit documentation (doc/sdk/index.html).
+  For a quick start, check out the examples (examples/).

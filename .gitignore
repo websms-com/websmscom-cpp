@@ -1,0 +1,15 @@
+
+# /
+/nbproject
+/.settings
+
+# /doc/
+/doc/sdk
+
+# /src/
+/src/main
+
+# /test/
+/test/gmock
+/test/gtest
+/test/*.zip
